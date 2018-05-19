@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package API;
+
+message Message {
+	required string title = 1;
+	required string content = 2;
+	required int32 magic_number = 3;
+}
